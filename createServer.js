@@ -5,7 +5,7 @@ const PORT = process.env.PORT;
 const server =http.createServer((req,res)=>{
     
     if(req.url === "/"){
-        return res.end("<h1>Home Page</h1>")
+        return res.end("<h1>Home Page is aLL things</h1>")
     }
     else if(req.url==="/about"){
         return res.end("<h1>About page</h1>");
